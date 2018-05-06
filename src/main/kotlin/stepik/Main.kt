@@ -31,7 +31,7 @@ fun main(args: Array<String>) {
     var nTop = 10
     if (args.size == 1) {
         try {
-            nTop = args[0].toInt()
+            nTop = if (args[0].toInt() > 0) args[0].toInt() else 10
         } catch (e: Exception) {
         }
     }
