@@ -1,4 +1,4 @@
-# STEPIK RAITING
+# STEPIK RATING
 
 **Запуск приложения**
 
